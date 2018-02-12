@@ -5,10 +5,12 @@
 flexible方案主要做的事是：
 
 1.动态改写<meta>标签
+
 2.给<html>元素添加data-dpr属性，并且动态改写data-dpr的值
+
 3.给<html>元素添加font-size属性，并且动态改写font-size的值
 
-html的demo代码是
+>html的demo代码是
 
 	<!DOCTYPE html>
 	<html lang="en">
@@ -42,7 +44,7 @@ lib-flexible库的使用方法非常的简单，只需要在Web页面的<head></
 	<script type="text/javascript" src="lib/flexible.js"></script>
 	<link rel="stylesheet" type="text/css" href="lib/flexible.css">
 
->注意： 使用flexible方案 需引入，且必须放在<b>自己写的css的最前面</b> 
+<b>注意：</b> 使用flexible方案 需引入，且必须放在<b>自己写的css的最前面</b> 
 
 ### flexible的实质
 
@@ -60,10 +62,12 @@ flexible实际上就是能过JS来动态改写meta标签，代码类似这样：
 	    documen.write(wrap.innerHTML);
 	}
 
-> 所以在html不用添加meta viewport,flexible会自动在html生成
+flexible可以自动生成meta viewport，所以在html不用添加meta viewport
 
 ### px转rem的方法
 
 1.使用sublime的插件，CSSREM
+
 2.使用css预处理sass的函数或mixin
+
 3.使用构建工具gulp的插件postcss-px2rem,手动添加、配置任务
