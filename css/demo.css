@@ -1,0 +1,16 @@
+.my-btn {
+  font-size: 16px;
+  width: 2.0312rem;
+  height: 0.625rem;
+  line-height: 0.625rem;
+  text-align: center;
+  background: #f00;
+  color: #fff;
+  border-radius: 3px;
+}
+[data-dpr="2"] .my-btn {
+  font-size: 32px;
+}
+[data-dpr="3"] .my-btn {
+  font-size: 48px;
+}

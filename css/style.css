@@ -1,0 +1,22 @@
+
+/*div {
+    width: 1rem; 
+    height: 0.4rem;
+    font-size: 12px; // 默认写上dpr为1的fontSize
+}
+[data-dpr="2"] div {
+    font-size: 24px;
+}
+[data-dpr="3"] div {
+    font-size: 36px;
+}*/
+.my-btn {
+	width: 2.0312rem;
+	height: 0.625rem;
+	line-height: 0.625rem;
+	text-align: center;
+	background: #f00;
+	color: #fff;
+	border-radius: 2px;
+	font-size: 0.375rem;
+}

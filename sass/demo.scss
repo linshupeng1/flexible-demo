@@ -1,0 +1,12 @@
+@import 'mixin/font-dpr';
+
+.my-btn {
+	@include font-dpr(16px);
+	width: 2.0312rem;
+	height: 0.625rem;
+	line-height: 0.625rem;
+	text-align: center;
+	background: #f00;
+	color: #fff;
+	border-radius: 3px;
+}
