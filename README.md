@@ -29,7 +29,7 @@ html的demo代码是
 	</html>
 
 
-##使用方法
+### 使用方法
 
 lib-flexible库的使用方法非常的简单，只需要在Web页面的<head></head>中添加对应的flexible_css.js,flexible.js文件：
 
@@ -62,7 +62,7 @@ flexible实际上就是能过JS来动态改写meta标签，代码类似这样：
 
 > 所以在html不用添加meta viewport,flexible会自动在html生成
 
-## px转rem的方法
+### px转rem的方法
 
 1.使用sublime的插件，CSSREM
 2.使用css预处理sass的函数或mixin
